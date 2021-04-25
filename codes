@@ -1,0 +1,41 @@
+.content{
+    box-sizing: border-box;
+    position: relative;
+    background-color: rgba(85, 125, 170, 0.3);
+}
+.nepal{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: absolute;
+    height: 300px;
+}
+.texts{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+.texts ul li{
+    list-style:disc;
+}
+.video video{
+    position: relative;
+    height: 300px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.scenario{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+}
+.scenario video{
+    width: 50%;
+    height: 70%;
+    top: 350px;
+    margin-left: 25%;
+    border-radius: 20px;
+}
+ 
